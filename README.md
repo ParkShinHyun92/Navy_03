@@ -1,9 +1,9 @@
 # Navy_03
 
-# 구운 바나나
+# navy&
 
-> 구운 바나나 by OSSW Basic 2017 team Navy 03
->https://ParkShinHyun92.github.io/Navy_03/<br/> 
+> navy& by OSSW Basic 2017 team Navy 03
+>https://ParkShinHyun92.github.io/Navy_03/<br/>
 >Free for personal and commercial use under the Apache 2.0 license
 
 * **Credits**:
