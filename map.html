@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<!--
+구운 바나나 by OSSW Basic 2017 team yellow 9
+https://github.com/ParkShinHyun92/Web_yellow_9
+Free for personal and commercial use under the Apache 2.0 license
+-->
+<html>
+	<head>
+		<title>Generic - Yellow Cards</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.jpg" alt="" /></span><span class="title">구운 바나나</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+								<div style="text-align: center">
+									<h1>찾아오시는 길</h1>
+								</div>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+				<nav id="menu">
+					<h2>Menu</h2>
+					<ul>
+						<li><a href="index.html">오늘의뉴스</a></li>
+						<li><a href="cur_ev.html">시사</a></li>
+						<li><a href="ittech.html">과학,기술</a></li>
+						<li><a href="life.html">생활</a></li>
+						<li><a href="map.html">찾아오는 길</a></li>
+						<li><a href="lisence.html">라이센스</a></li>
+					</ul>
+				</nav>
+
+				<!-- Main -->
+
+				<style>
+					        #map {
+								        height: 400px;
+										        width: 100%;
+													          }
+				    </style>
+					  </head>
+					    <body>
+							    <div id="map"></div>
+								    <script>
+									      function initMap() {
+											          var uluru = {lat: 37.296384, lng: 126.838952};
+													          var map = new google.maps.Map(document.getElementById('map'), {
+																	            zoom: 16,
+																				          center: uluru
+																						          });
+															          var marker = new google.maps.Marker({
+																			            position: uluru,
+																						          map: map
+																								          });
+																	        }
+				    </script>
+					    <script async defer
+						    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-Omr2vBEDAZHwfw83J2g4Q_X70XM-_Ms&callback=initMap">
+						</script>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Get in touch</h2>
+								<form method="post" action="#">
+									<div class="field half first">
+										<input type="text" name="name" id="name" placeholder="Name" />
+									</div>
+									<div class="field half">
+										<input type="email" name="email" id="email" placeholder="Email" />
+									</div>
+									<div class="field">
+										<textarea name="message" id="message" placeholder="Message"></textarea>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="special" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+									<li><a href="https://www.facebook.com/%EA%B5%AC%EC%9A%B4-%EB%B0%94%EB%82%98%EB%82%98-124290291669182/" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="https://github.com/ParkShinHyun92/Web_yellow_9" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
