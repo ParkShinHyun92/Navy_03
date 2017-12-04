@@ -9,9 +9,11 @@
 >> This document is created for card news user. <br/>
 >> If you have any question please send mail to guengdongnany@gmail.com
 
+----
 ## 사이트 접속
-> https://ParkShinHyun92.github.io/Navy_03<br/>
+> https://ParkShinHyun92.github.io/Navy_03
 
+----
 ## 사용 방법
 ![Alt text](images/init.jpg)
 - 초기화면
