@@ -12,7 +12,7 @@
 ## 사이트 접속
 > https://ParkShinHyun92.github.io/Navy_03
 
-----
+
 ## 사용 방법
 ![Alt text](images/init.jpg)
 - 초기화면
