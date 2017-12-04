@@ -34,6 +34,7 @@ Front-ends or Editor which can edit and support preview funtion
 ```
 Polymer
 Atom ( html preview )
+sublime ()
 ```
 
 
@@ -77,7 +78,16 @@ Please refer to url for other methods
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Serve your project.
+
+```
+polymer serve
+```
+ ![](/presentation/Developer_manual/polymer_serve.png)
+
+ move to your local [http://localhost:8080](http://localhost:8080)
+
+ ![](/images/init2.jpg)
 
 ### Break down into end to end tests
 
