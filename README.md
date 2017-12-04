@@ -22,35 +22,58 @@
 
 OpenSource for Card News Web page
 
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Front-ends or Editor which can edit and support preview funtion
 
 ```
-Give examples
+Polymer
+Atom ( html preview )
 ```
+
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
+Use the Polymer CLI to create an application template and install Polymer
 
-Say what the step will be
+The Polymer CLI requires Node.js, npm, Git and Bower. For full installation instructions, see the Polymer CLI documentation.
 
-```
-Give the example
-```
-
-And repeat
+1.Install the Polymer CLI.
 
 ```
-until finished
+npm install -g polymer-cli
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+2.Create a test folder for Polymer 2.0, and switch to it.
+
+```
+mkdir polymer-20-test
+cd polymer-20-test
+```
+
+3.Initialize your project.
+
+
+```
+polymer init
+```
+
+4.Select polymer-2-application.
+
+5.Serve your project.
+
+```
+polymer serve
+```
+
+
+Please refer to url for other methods
+[polymer install](https://www.polymer-project.org/)
 
 ## Running the tests
 
