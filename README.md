@@ -78,15 +78,20 @@ Please refer to url for other methods
 
 ## Running the tests
 
-Serve your project.
+Download our Clone our [Card News Project](https://github.com/ParkShinHyun92/Navy_03)
+
+  ![](/presentation/Developer_manual/github_download.jpg)
+
+Operate Card News Project on your localhost
 
 ```
 polymer serve
 ```
  ![](/presentation/Developer_manual/polymer_serve.png)
 
- move to your local [http://localhost:8080](http://localhost:8080)
-
+```
+ Move to your local [http://localhost:8080](http://localhost:8080)
+```
  ![](/images/init2.jpg)
 
 ### Break down into end to end tests
