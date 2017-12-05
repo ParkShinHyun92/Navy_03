@@ -22,11 +22,6 @@
 
 OpenSource for Card News Web page
 
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Prerequisites
 
 Front-ends or Editor which can edit and support preview funtion
@@ -37,8 +32,7 @@ Atom ( html preview )
 sublime ()
 ```
 
-
-### Installing
+### Installing ( Polymer )
 
 Use the Polymer CLI to create an application template and install Polymer
 
@@ -68,13 +62,16 @@ polymer init
 
 5.Serve your project.
 
-```
-polymer serve
-```
-
-
 Please refer to url for other methods
 [polymer install](https://www.polymer-project.org/)
+
+### Installing ( Atom , Sublime )
+
+```
+Atom [Download Atom](https://atom.io/)
+
+Sublime [Download Sublime](https://www.sublimetext.com/3)
+```
 
 ## Running the tests
 
@@ -94,52 +91,67 @@ polymer serve
 ```
  ![](/images/init2.jpg)
 
-### Break down into end to end tests
+### Basic Coding style (html)
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
+Our project Coding style based on html
 
 ```
-Give an example
+<html>
+	<head>
+		<title>navy view</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body style="margin:0;padding:0;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.jpg" alt="" /></span><span style="color:blue" class="title">Navy &</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+						<div style="text-align: center">
+							<h1>인공지능의 시대, 일자리 확 줄어든다</h1>
+						</div>
+					</header>
+        </div>
+    </body>
+</html>
 ```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Shinhyun Park**   - *Initial work* - [ParkShinHyun92](https://github.com/ParkShinHyun92)
+* **Junho Lee** - *Initial work* - [plusjob70](https://github.com/plusjob70)
+* **Jewoong Moon**    - *Initial work* - [MoonJeWoong](https://github.com/MoonJeWoong)
+* **Kyungri Park** - *Initial work* - [pkrarten](https://github.com/pkrarten)
+* **Sungju Yun** - *Initial work* - [Bravokan](https://github.com/Bravokan)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+See also the list of [contributors](https://github.com/ParkShinHyun92/Navy_03/graphs/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the Apache 2.0 License - see the [LICENSE](https://parkshinhyun92.github.io/Navy_03/lisence.html) file for details
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Hanyang University Prof.[Jeongkyu Shin](https://github.com/inureyes)
+* Hanyang University Master degree ta-Donghwan
