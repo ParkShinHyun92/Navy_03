@@ -14,7 +14,7 @@
 ## How to Use
 ![Alt text](images/init.jpg)
 - initial screen
-> This is the initial screen when you access the site. if you click **NAVY&** in the upper left corner, you can return to the initial screen at any time and if you click the button in the upper right corner, the menu bar appear. At the center of the page, there is a button to view the card news. In addition there is a FoLLOW button on the bottom right, which can be followed by Facebook on the left side and Github on the right side.
+> This is the initial screen when you access the site. if you click **NAVY&** in the upper left corner, you can return to the initial screen at any time and if you click the button in the upper right corner, the menu bar appear. At the center of the page, there is a button to view the card news. In addition there is a FOLLOW button on the bottom right, which can be followed by Facebook on the left side and Github on the right side.
 
 
 ![Alt text](images/menubar.jpg)
