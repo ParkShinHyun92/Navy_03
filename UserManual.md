@@ -26,8 +26,8 @@
 - 이동 버튼
 > 카드뉴스를 전 페이지 혹은 다음 페이지로 넘기려면 사진에 보이는 **<** 표시나 **>** 표시를 클릭하셔야 됩니다. 또한 특정 페이지로 한 번에 이동하고 싶으시다면 밑에 동그란 부분을 누르시면 그 페이지로 이동합니다.
 
-![Alt text](images/Chrome.jpg)
-![Alt text](images/Safari.jpg)
-![Alt text](images/FireFox.jpg)
-> 크롬, 사파리, 파이어 폭스 브라우저에서는 구동이 됨을 확인.
+![Alt text](images/Chrome)
+![Alt text](images/Safari)
+![Alt text](images/FireFox)
+- 크롬, 사파리, 파이어 폭스 브라우저에서는 구동이 됨을 확인.
 
