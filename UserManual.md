@@ -6,8 +6,7 @@
 > Free for personal and commercial use under the Apache 2.0 license
 >> 이 문서는 카드뉴스 사용자를 위해 만들어졌습니다. <br/>
 >> 문의 사항이 있으시면 guengdongnany@gmail.com 으로 메일 바랍니다. <br/>
->> This document is created for card news user. <br/>
->> If you have any question please send mail to guengdongnany@gmail.com
+
 
 ## 사이트 접속
 > https://ParkShinHyun92.github.io/Navy_03
@@ -30,4 +29,3 @@
 ![Alt text](images/Safari.jpg)
 ![Alt text](images/FireFox.jpg)
 - 크롬, 사파리, 파이어 폭스 브라우저에서는 구동이 됨을 확인.
-
